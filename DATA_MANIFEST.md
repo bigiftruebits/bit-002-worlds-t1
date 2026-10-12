@@ -21,13 +21,13 @@ Leaguepedia's CC BY-SA licence is share-alike: everything in `data/` derived fro
 
 | File | Source | Retrieved | Bytes | sha256 |
 |---|---|---|---|---|
-| raw/leaguepedia_hf/entity_aliases.parquet | gptilt/lol-esports-matches (snapshot of 27 Sep 2026) | 2026-10-02 | 823124 | f2b9d32b1eb17684723ebfd5381d310944e332ad700c3dda5faf96b724f93c6b |
-| raw/leaguepedia_hf/games.parquet | same | 2026-10-02 | 9204669 | 46c30cca7def7ed5745164f1ebb8d08112712075d7b8ef0175a9822a9626feb2 |
-| raw/leaguepedia_hf/matches.parquet | same | 2026-10-02 | 2130346 | 4770c4e3d15dc72f102e9d23325610ed34efd0f85cac40883cc7916f3787d43f |
-| raw/leaguepedia_hf/teams.parquet | same | 2026-10-02 | 96272 | dd45cecffc122893eb288e1d1eba040e872f54abfc7239195e2878e3721cd4a4 |
-| raw/leaguepedia_hf/tournaments.parquet | same | 2026-10-02 | 289719 | 88729065946347ab7300c4e86fed6c08c81ce72afefb915078d709e743685889 |
-| raw/football/results.csv | https://raw.githubusercontent.com/martj42/international_results/master/results.csv (data to 6 Oct 2026) | 2026-10-09 | 3764601 | b38434f8f74cd9faacb269eb1c97760fc2dfac43fcb211779e0bd2cbb48f89e3 |
-| raw/football/shootouts.csv | https://raw.githubusercontent.com/martj42/international_results/master/shootouts.csv | 2026-10-09 | 29789 | 072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa |
+| `raw/leaguepedia_hf/entity_aliases.parquet` | gptilt/lol-esports-matches (snapshot of 27 Sep 2026) | 2026-10-02 | 823124 | f2b9d32b1eb17684723ebfd5381d310944e332ad700c3dda5faf96b724f93c6b |
+| `raw/leaguepedia_hf/games.parquet` | same | 2026-10-02 | 9204669 | 46c30cca7def7ed5745164f1ebb8d08112712075d7b8ef0175a9822a9626feb2 |
+| `raw/leaguepedia_hf/matches.parquet` | same | 2026-10-02 | 2130346 | 4770c4e3d15dc72f102e9d23325610ed34efd0f85cac40883cc7916f3787d43f |
+| `raw/leaguepedia_hf/teams.parquet` | same | 2026-10-02 | 96272 | dd45cecffc122893eb288e1d1eba040e872f54abfc7239195e2878e3721cd4a4 |
+| `raw/leaguepedia_hf/tournaments.parquet` | same | 2026-10-02 | 289719 | 88729065946347ab7300c4e86fed6c08c81ce72afefb915078d709e743685889 |
+| `raw/football/results.csv` | https://raw.githubusercontent.com/martj42/international_results/master/results.csv (data to 6 Oct 2026) | 2026-10-09 | 3764601 | b38434f8f74cd9faacb269eb1c97760fc2dfac43fcb211779e0bd2cbb48f89e3 |
+| `raw/football/shootouts.csv` | https://raw.githubusercontent.com/martj42/international_results/master/shootouts.csv | 2026-10-09 | 29789 | 072b445adf5183fbe981087857e5b64c8f17abfdbf257b1822ceacb4a37919fa |
 
 The Hugging Face dataset is updated over time; the snapshot used is the one in `raw/`. `download.py` fetches the current version, which will differ.
 
