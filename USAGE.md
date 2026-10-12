@@ -27,3 +27,9 @@ Not counted: 5–9 Oct before the 9 Oct compression, and 10 Oct 22:45 to 11 Oct 
 Breakdown of the last block (19.23 M): analytics and modelling 9.08 M, reading files 3.35 M, orchestrating 1.71 M,
 writing documents 1.63 M, writing and reasoning 1.36 M, quality checks 0.89 M, web page reads 0.69 M (24 pages),
 search 0.44 M (18 searches), structuring data 0.08 M.
+
+**Packaging in Claude Code** (12 Oct 2026, appended by that session). Measured from the Claude Code transcript with
+`tools/bit_usage.py --bit bit-002-worlds-t1`: Claude Opus 5.5, 62 responses attributed to this issue, input 124, output
+54,039, cache write 116,068, cache read 13,406,840: **1.84 M effective tokens**, coverage complete for the responses
+counted up to the zip build; the rest of the same session (receipts, registry) is in the registry, not here. Not
+included in the article's lower bound, which counts the Cowork session only.
