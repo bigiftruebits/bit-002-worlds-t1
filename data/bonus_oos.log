@@ -1,0 +1,11 @@
+ year  bonus_from_past  games  nll_no_bonus  nll_with_bonus
+ 2016              373     20         12.61           14.04
+ 2017              194     19         13.12           16.79
+ 2019               72     14          8.03            8.04
+ 2021               63     14          8.05            7.29
+ 2022               89     18         13.02           12.16
+ 2023              102     15         11.90            9.10
+ 2024              149     17         13.44           10.18
+ 2025              176     24         16.53           14.61
+total out-of-sample NLL: no bonus 96.69  with bonus 92.21
+bonus using 2015-2022 only: 102

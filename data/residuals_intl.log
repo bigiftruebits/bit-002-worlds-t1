@@ -1,0 +1,28 @@
+T1 by event type
+            games   wins     exp  excess     z
+kind                                          
+MSI         174.0  116.0  115.00    1.00  0.17
+Other intl   49.0   32.0   31.76    0.24  0.08
+Worlds      157.0  115.0   87.72   27.28  4.62
+Korean teams except T1
+            games   wins     exp  excess     z
+kind                                          
+MSI         114.0   73.0   75.19   -2.19 -0.45
+Other intl  336.0  203.0  212.35   -9.35 -1.11
+Worlds      423.0  270.0  249.72   20.28  2.13
+Chinese teams
+            games   wins     exp  excess     z
+kind                                          
+MSI         274.0  183.0  161.65   21.35  2.83
+Other intl  183.0   94.0   97.11   -3.11 -0.48
+Worlds      535.0  308.0  318.37  -10.37 -0.96
+T1 Worlds bonus (Elo pts): 177 95% CI 102 255
+  without 2015 166
+  without 2016 184
+  without 2017 219
+  without 2019 192
+  without 2021 173
+  without 2022 180
+  without 2023 147
+  without 2024 154
+  without 2025 176

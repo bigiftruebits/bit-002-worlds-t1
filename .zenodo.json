@@ -1,0 +1,44 @@
+{
+  "title": "BIG IF TRUE #002: T1: the Korean esports team that transforms in October [Code and data]",
+  "upload_type": "software",
+  "version": "v1.0.0",
+  "creators": [
+    {
+      "name": "Gallotti, Riccardo",
+      "affiliation": "Fondazione Bruno Kessler (FBK)"
+    }
+  ],
+  "description": "<p>If you use this code or data, cite this record: Gallotti, R. (2026). BIG IF TRUE #002: T1: the Korean esports team that transforms in October [Code and data]. Zenodo.</p><p>Code and data behind the BIG IF TRUE article on T1 and the League of Legends World Championship (English and Italian editions). Elo ratings for every top-league and international professional team since 2011, with a strength term per league; every Worlds from 2014 to 2026 simulated in its real format; a test of T1's Worlds-only over-performance against MSI and against other rating methods; the 2026 forecast; and this year's teams replayed under seven tournament formats, with a football parallel. check_numbers.py re-derives every number the article prints from the shared data (46 checks; it compares them with the article texts, which are in the GitHub repository, not in this archive). The figure scripts redraw all figures in both languages.</p><p>Not included: Riot Games' Global Power Rankings and lolproelo.com ratings (no licence for redistribution found); their values are blanked and the scripts that recollect them are included.</p><p>Article: <a href=\"https://bigiftruebits.substack.com/p/worlds-t1\">https://bigiftruebits.substack.com/p/worlds-t1</a> (also at <a href=\"https://bigiftruebits.github.io/bit-002-worlds-t1/article.html\">https://bigiftruebits.github.io/bit-002-worlds-t1/article.html</a>).</p>",
+  "license": "cc-by-sa-4.0",
+  "keywords": [
+    "League of Legends",
+    "esports",
+    "Elo",
+    "tournament design",
+    "Monte Carlo",
+    "Worlds",
+    "reproducibility",
+    "BIG IF TRUE"
+  ],
+  "notes": "Code written by Claude (Anthropic) under the author's direction: Claude Opus 5.5 in a Cowork session (analysis, figures, writing) and in Claude Code (packaging). Usage in USAGE.md, as a lower bound: the session's transcript was compressed several times. Licences: the code is under MIT; the derived data, figures and documentation are under CC BY-SA 4.0, because the game results come from Leaguepedia under CC BY-SA 3.0 (credit: Riccardo Gallotti, BIG IF TRUE; game data from Leaguepedia contributors, CC BY-SA 3.0, via the Hugging Face dataset gptilt/lol-esports-matches). Third-party data keep their providers' licences: Leaguepedia CC BY-SA 3.0; international football results (martj42/international_results) CC0 1.0.",
+  "related_identifiers": [
+    {
+      "identifier": "https://bigiftruebits.substack.com/p/worlds-t1",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://bigiftruebits.github.io/bit-002-worlds-t1/article.html",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/bigiftruebits/bit-002-worlds-t1",
+      "relation": "isDerivedFrom",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>#002 Worlds T1: BIG IF TRUE</title><meta name="description" content="T1: the Korean esports team that transforms in October: figures, data and code."><meta property="og:type" content="article"><meta property="og:title" content="BIG IF TRUE #002: T1: the Korean esports team that transforms in October"><meta property="og:description" content="Figures, data and code. Every number can be re-derived."><meta property="og:image" content="https://bigiftruebits.github.io/bit-002-worlds-t1/fig-002-preview.png"><meta name="twitter:card" content="summary_large_image">
+<style>.lang{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin:.5rem 0}.lang button{font:inherit;font-size:.9rem;padding:4px 14px;border:0;background:var(--card);color:var(--fg);cursor:pointer}.lang button[aria-pressed=true]{background:var(--acc);color:#fff}</style>
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap"><a class="brand" href="../">BIG IF TRUE</a><a href="../">All issues</a><a data-repo="">Code &amp; data on GitHub</a></div></header>
+<main class="wrap">
+<h1>#002 T1: the Korean esports team that transforms in October</h1>
+<p class="lead">Elo ratings for every professional League of Legends team since 2011, every Worlds from 2014 to 2026 simulated in its real format, a test of T1's Worlds-only over-performance, and this year's teams replayed under seven tournament formats. Also in Italian: <em>T1: la squadra coreana di esport che a ottobre si trasforma</em>.</p>
+<p class="btns" style="display:flex;flex-wrap:wrap;gap:10px;margin:1rem 0 1.5rem"><a href="article.html" style="background:var(--acc);color:#fff;border:1px solid var(--acc);border-radius:6px;padding:6px 14px;text-decoration:none">Read the article</a><a href="articolo.html" style="border:1px solid var(--acc);border-radius:6px;padding:6px 14px;text-decoration:none">Leggi in italiano</a><a href="https://bigiftruebits.substack.com/p/worlds-t1" style="border:1px solid var(--acc);border-radius:6px;padding:6px 14px;text-decoration:none">Subscribe on Substack</a></p>
+<h2>Figures</h2>
+<p>Click an image for full resolution.</p>
+<div class="lang" role="group" aria-label="Language"><button type="button" data-l="en" aria-pressed="true">English</button><button type="button" data-l="it" aria-pressed="false">Italiano</button></div>
+<figure><a data-fig="fig-002-big-worlds-elo-2026" href="figures/fig-002-big-worlds-elo-2026.png"><img loading="lazy" data-fig="fig-002-big-worlds-elo-2026" src="figures/fig-002-big-worlds-elo-2026.png" alt="BIG. The 19 teams qualified for Worlds 2026, by Elo rating on 10 October 2026"></a><figcaption>BIG. The 19 teams qualified for Worlds 2026, by Elo rating on 10 October 2026. Script: <code>code/bit/fig_big.py</code>.</figcaption></figure>
+<figure><a data-fig="fig-002-if-worlds-t1" href="figures/fig-002-if-worlds-t1.png"><img loading="lazy" data-fig="fig-002-if-worlds-t1" src="figures/fig-002-if-worlds-t1.png" alt="IF. Each champion's pre-tournament chance, expected against actual wins, and T1's wins above expectation"></a><figcaption>IF. Each champion's pre-tournament chance, expected against actual wins, and T1's wins above expectation. Script: <code>code/bit/fig_if.py</code>.</figcaption></figure>
+<figure><a data-fig="fig-002-odds-2026" href="figures/fig-002-odds-2026.png"><img loading="lazy" data-fig="fig-002-odds-2026" src="figures/fig-002-odds-2026.png" alt="The predictions. Each team's chance of reaching each round of Worlds 2026"></a><figcaption>The predictions. Each team's chance of reaching each round of Worlds 2026, from 100,000 simulated tournaments. Script: <code>code/bit/fig_odds.py</code>.</figcaption></figure>
+<figure><a data-fig="fig-002-true-formats" href="figures/fig-002-true-formats.png"><img loading="lazy" data-fig="fig-002-true-formats" src="figures/fig-002-true-formats.png" alt="TRUE. Title chances of the four leading contenders under seven formats"></a><figcaption>TRUE. Title chances of the four leading contenders under seven formats. Script: <code>code/bit/fig_true.py</code>.</figcaption></figure>
+<h2>Check the article</h2>
+<pre>pip install -r requirements.txt
+make check        # re-derives 46 printed numbers from data/, PASS/FAIL each, in both editions
+make figures      # redraws every figure, English and Italian</pre>
+<p>The derived data are in the repository; <code>make figures</code> needs the raw Leaguepedia snapshot in <code>raw/</code> (from the Zenodo record, or <code>make data</code>, which fetches today's version). On the shipped data all 46 numbers reproduce, and the figure scripts redraw the published figures (titles and margins can shift by a few pixels between matplotlib versions). <code>make all</code> reruns the whole analysis in a few hours; see the <a data-repo="blob/main/README.md">README</a>.</p>
+<h2>Data sources</h2>
+<table><tr><th>Dataset</th><th>Provider</th></tr>
+<tr><td>Professional League of Legends results, 2011–2026 (snapshot of 27 September 2026)</td><td>Leaguepedia contributors, CC BY-SA 3.0, via the Hugging Face dataset <code>gptilt/lol-esports-matches</code></td></tr>
+<tr><td>Six series results, 27 September to 10 October 2026</td><td>news reports (Sheep Esports, Dot Esports, Terra, Strafe, Pichau Arena)</td></tr>
+<tr><td>National-team football results</td><td><code>martj42/international_results</code> on GitHub, CC0</td></tr>
+<tr><td>Global Power Rankings; lolproelo.com ratings</td><td>Riot Games; lolproelo.com. Not redistributed (no licence found): values blanked, scripts recollect them</td></tr>
+</table>
+<h2>What is checked, and what is not</h2>
+<p>All 46 checks run from the shared data. Not checkable from the package: the comparisons with Riot's rankings and lolproelo.com (their values are not redistributed), five files produced by one-off commands during the analysis, and a byte-identical rebuild of the games table. The <a data-repo="blob/main/README.md">README</a> lists them.</p>
+<h2>How to cite</h2>
+<p>Cite the archive, not the post. One Zenodo record holds this issue's code and data together: Gallotti, R. (2026). <em>BIG IF TRUE #002: T1: the Korean esports team that transforms in October</em> [Code and data]. Zenodo. The DOI is added here on publication.</p>
+<h2>Cards on the table</h2>
+<p>This analysis was written and run by Claude Opus 5.5 under the author's direction, not re-read line by line and not peer-reviewed. The <a data-repo="blob/main/NOTES.md">bug log</a> records the errors found and fixed, and <a data-repo="blob/main/KEY_NUMBERS.md">KEY_NUMBERS.md</a> lists every number in the article. Found a difference? <a data-repo="issues">Open an issue</a>.</p>
+<p>Related peer-reviewed work: De Bois et al., <em>IEEE Transactions on Games</em> (2025); González-Díaz, Gossner &amp; Rogers, <em>Journal of Economic Behavior &amp; Organization</em> (2012); Sziklai, Biró &amp; Csató, <em>Computers &amp; Operations Research</em> (2022). Full references in the article.</p>
+<p class="note">Ratings summarise results: they know nothing of rosters, injuries, patches or the draft, and games within a series are treated as independent.</p>
+</main><footer><div class="wrap">Author: Riccardo Gallotti, FBK. Code: MIT. Data tables, figures and texts created here: CC BY-SA 4.0 (game data from Leaguepedia contributors, CC BY-SA 3.0). Third-party data under its providers' licences.</div></footer><script src="site.js"></script>
+<script>
+(function(){
+  var btns=document.querySelectorAll('.lang button');
+  function set(l){
+    document.querySelectorAll('[data-fig]').forEach(function(e){
+      var f=e.getAttribute('data-fig')+(l==='it'?'-it':'')+'.png';
+      if(e.tagName==='IMG')e.src='figures/'+f;else e.href='figures/'+f;
+    });
+    document.documentElement.lang=l;
+    btns.forEach(function(b){b.setAttribute('aria-pressed',b.getAttribute('data-l')===l);});
+    try{localStorage.setItem('bit002lang',l);}catch(e){}
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.getAttribute('data-l'));});});
+  var q=(location.search.match(/lang=(en|it)/)||[])[1], s=null;
+  try{s=localStorage.getItem('bit002lang');}catch(e){}
+  if(q||s)set(q||s);
+})();
+</script>
+<script data-goatcounter="https://bigiftruebits.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body></html>

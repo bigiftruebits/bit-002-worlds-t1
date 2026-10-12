@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the archived record (the DOI is added after publication)."
+title: "BIG IF TRUE #002: T1: the Korean esports team that transforms in October [Code and data]"
+type: software
+authors:
+  - family-names: Gallotti
+    given-names: Riccardo
+    affiliation: "Fondazione Bruno Kessler (FBK)"
+license:
+  - MIT
+  - CC-BY-SA-4.0
+url: "https://bigiftruebits.substack.com/p/worlds-t1"
+repository-code: "https://github.com/bigiftruebits/bit-002-worlds-t1"
+keywords: [League of Legends, esports, Elo, tournament design, Monte Carlo, Worlds]
+abstract: >-
+  Elo ratings of every professional League of Legends team since 2011, simulators for every Worlds format 2014-2026,
+  a test of T1's Worlds-only over-performance, and a comparison of tournament formats with parallels from other sports.
+notes: >-
+  Every step of this analysis, from downloading the data through the Elo ratings, the tournament simulators and the
+  comparisons, to the charts, was written and executed by Claude Opus 5.5 (Anthropic), working from Riccardo
+  Gallotti's instructions. He set the questions and the framing; the model did the work.

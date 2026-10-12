@@ -1,0 +1,12 @@
+{'year': 2014, 'champion': 'Samsung White', 'p_champ': 0.26392, 'champ_rank': 2, 'champ_elo_rank': 2, 'favourite': 'Samsung Blue', 'p_fav': 0.48386, 'runner_up': 'Star Horn Royal Club', 'p_final_pair': None, 'missing': []}
+{'year': 2015, 'champion': 'T1', 'p_champ': 0.4304, 'champ_rank': 1, 'champ_elo_rank': 1, 'favourite': 'T1', 'p_fav': 0.4304, 'runner_up': 'KOO Tigers', 'p_final_pair': None, 'missing': []}
+{'year': 2016, 'champion': 'T1', 'p_champ': 0.14174, 'champ_rank': 3, 'champ_elo_rank': 3, 'favourite': 'ROX Tigers', 'p_fav': 0.49978, 'runner_up': 'Gen.G', 'p_final_pair': None, 'missing': []}
+{'year': 2017, 'champion': 'Gen.G', 'p_champ': 0.1578, 'champ_rank': 3, 'champ_elo_rank': 3, 'favourite': 'Longzhu Gaming', 'p_fav': 0.25718, 'runner_up': 'T1', 'p_final_pair': None, 'missing': []}
+{'year': 2018, 'champion': 'Invictus Gaming', 'p_champ': 0.19256, 'champ_rank': 2, 'champ_elo_rank': 2, 'favourite': 'KT Rolster', 'p_fav': 0.27568, 'runner_up': 'Fnatic', 'p_final_pair': None, 'missing': []}
+{'year': 2019, 'champion': 'FunPlus Phoenix', 'p_champ': 0.3449, 'champ_rank': 1, 'champ_elo_rank': 1, 'favourite': 'FunPlus Phoenix', 'p_fav': 0.3449, 'runner_up': 'G2 Esports', 'p_final_pair': None, 'missing': []}
+{'year': 2020, 'champion': 'Dplus KIA', 'p_champ': 0.2552, 'champ_rank': 2, 'champ_elo_rank': 2, 'favourite': 'Top Esports', 'p_fav': 0.30422, 'runner_up': 'Weibo Gaming', 'p_final_pair': None, 'missing': []}
+{'year': 2021, 'champion': 'EDward Gaming', 'p_champ': 0.25872, 'champ_rank': 1, 'champ_elo_rank': 1, 'favourite': 'EDward Gaming', 'p_fav': 0.25872, 'runner_up': 'Dplus KIA', 'p_final_pair': None, 'missing': []}
+{'year': 2022, 'champion': 'DRX', 'p_champ': 0.01658, 'champ_rank': 8, 'champ_elo_rank': 8, 'favourite': 'Gen.G', 'p_fav': 0.51466, 'runner_up': 'T1', 'p_final_pair': None, 'missing': []}
+{'year': 2023, 'champion': 'T1', 'p_champ': 0.016, 'champ_rank': 7, 'champ_elo_rank': 7, 'favourite': 'JD Gaming', 'p_fav': 0.41434, 'runner_up': 'Weibo Gaming', 'p_final_pair': None, 'missing': []}
+{'year': 2024, 'champion': 'T1', 'p_champ': 0.01936, 'champ_rank': 6, 'champ_elo_rank': 5, 'favourite': 'Gen.G', 'p_fav': 0.48242, 'runner_up': 'Bilibili Gaming', 'p_final_pair': None, 'missing': []}
+{'year': 2025, 'champion': 'T1', 'p_champ': 0.09222, 'champ_rank': 3, 'champ_elo_rank': 3, 'favourite': 'Gen.G', 'p_fav': 0.33358, 'runner_up': 'KT Rolster', 'p_final_pair': None, 'missing': []}

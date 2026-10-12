@@ -1,0 +1,321 @@
+bonus,format,team,p
+0,Swiss + Bo5 knockouts (2023-26),Gen.G,0.402425
+0,Swiss + Bo5 knockouts (2023-26),Anyone's Legend,0.051525
+0,Swiss + Bo5 knockouts (2023-26),Team Liquid,0.0255
+0,Swiss + Bo5 knockouts (2023-26),G2 Esports,0.026925
+0,Swiss + Bo5 knockouts (2023-26),Team Secret Whales,0.00085
+0,Swiss + Bo5 knockouts (2023-26),LØS,0.0
+0,Swiss + Bo5 knockouts (2023-26),Hanwha Life Esports,0.156025
+0,Swiss + Bo5 knockouts (2023-26),Bilibili Gaming,0.180475
+0,Swiss + Bo5 knockouts (2023-26),LYON,0.0064
+0,Swiss + Bo5 knockouts (2023-26),Movistar KOI,0.000425
+0,Swiss + Bo5 knockouts (2023-26),T1,0.060775
+0,Swiss + Bo5 knockouts (2023-26),Top Esports,0.008625
+0,Swiss + Bo5 knockouts (2023-26),CTBC Flying Oyster,0.0
+0,Swiss + Bo5 knockouts (2023-26),Invictus Gaming,0.0123
+0,Swiss + Bo5 knockouts (2023-26),Dplus KIA,0.0629
+0,Swiss + Bo5 knockouts (2023-26),Karmine Corp,0.00485
+0,Swiss + Bo3 knockouts,Gen.G,0.3452
+0,Swiss + Bo3 knockouts,Anyone's Legend,0.06055
+0,Swiss + Bo3 knockouts,Team Liquid,0.0332
+0,Swiss + Bo3 knockouts,G2 Esports,0.0354
+0,Swiss + Bo3 knockouts,Team Secret Whales,0.00205
+0,Swiss + Bo3 knockouts,LØS,5e-05
+0,Swiss + Bo3 knockouts,Hanwha Life Esports,0.155325
+0,Swiss + Bo3 knockouts,Bilibili Gaming,0.174375
+0,Swiss + Bo3 knockouts,LYON,0.0107
+0,Swiss + Bo3 knockouts,Movistar KOI,0.00105
+0,Swiss + Bo3 knockouts,T1,0.069
+0,Swiss + Bo3 knockouts,Top Esports,0.0139
+0,Swiss + Bo3 knockouts,CTBC Flying Oyster,0.0
+0,Swiss + Bo3 knockouts,Invictus Gaming,0.018225
+0,Swiss + Bo3 knockouts,Dplus KIA,0.072325
+0,Swiss + Bo3 knockouts,Karmine Corp,0.00865
+0,Swiss + Bo7 knockouts,Gen.G,0.4471
+0,Swiss + Bo7 knockouts,Anyone's Legend,0.0455
+0,Swiss + Bo7 knockouts,Team Liquid,0.019625
+0,Swiss + Bo7 knockouts,G2 Esports,0.021075
+0,Swiss + Bo7 knockouts,Team Secret Whales,0.00045
+0,Swiss + Bo7 knockouts,LØS,0.0
+0,Swiss + Bo7 knockouts,Hanwha Life Esports,0.15455
+0,Swiss + Bo7 knockouts,Bilibili Gaming,0.18085
+0,Swiss + Bo7 knockouts,LYON,0.004125
+0,Swiss + Bo7 knockouts,Movistar KOI,0.000225
+0,Swiss + Bo7 knockouts,T1,0.054625
+0,Swiss + Bo7 knockouts,Top Esports,0.005475
+0,Swiss + Bo7 knockouts,CTBC Flying Oyster,0.0
+0,Swiss + Bo7 knockouts,Invictus Gaming,0.008125
+0,Swiss + Bo7 knockouts,Dplus KIA,0.0554
+0,Swiss + Bo7 knockouts,Karmine Corp,0.002875
+0,Groups + Bo5 knockouts (2014-22),Gen.G,0.389875
+0,Groups + Bo5 knockouts (2014-22),Anyone's Legend,0.0547
+0,Groups + Bo5 knockouts (2014-22),Team Liquid,0.025875
+0,Groups + Bo5 knockouts (2014-22),G2 Esports,0.030525
+0,Groups + Bo5 knockouts (2014-22),Team Secret Whales,0.000575
+0,Groups + Bo5 knockouts (2014-22),LØS,0.0
+0,Groups + Bo5 knockouts (2014-22),Hanwha Life Esports,0.1565
+0,Groups + Bo5 knockouts (2014-22),Bilibili Gaming,0.18155
+0,Groups + Bo5 knockouts (2014-22),LYON,0.005525
+0,Groups + Bo5 knockouts (2014-22),Movistar KOI,0.000625
+0,Groups + Bo5 knockouts (2014-22),T1,0.0634
+0,Groups + Bo5 knockouts (2014-22),Top Esports,0.008825
+0,Groups + Bo5 knockouts (2014-22),CTBC Flying Oyster,0.0
+0,Groups + Bo5 knockouts (2014-22),Invictus Gaming,0.01295
+0,Groups + Bo5 knockouts (2014-22),Dplus KIA,0.0636
+0,Groups + Bo5 knockouts (2014-22),Karmine Corp,0.005475
+0,"Single elimination Bo5, random",Gen.G,0.388725
+0,"Single elimination Bo5, random",Anyone's Legend,0.055175
+0,"Single elimination Bo5, random",Team Liquid,0.026125
+0,"Single elimination Bo5, random",G2 Esports,0.028575
+0,"Single elimination Bo5, random",Team Secret Whales,0.001025
+0,"Single elimination Bo5, random",LØS,7.5e-05
+0,"Single elimination Bo5, random",Hanwha Life Esports,0.15525
+0,"Single elimination Bo5, random",Bilibili Gaming,0.168875
+0,"Single elimination Bo5, random",LYON,0.00805
+0,"Single elimination Bo5, random",Movistar KOI,0.00095
+0,"Single elimination Bo5, random",T1,0.067175
+0,"Single elimination Bo5, random",Top Esports,0.01075
+0,"Single elimination Bo5, random",CTBC Flying Oyster,0.0
+0,"Single elimination Bo5, random",Invictus Gaming,0.014875
+0,"Single elimination Bo5, random",Dplus KIA,0.067275
+0,"Single elimination Bo5, random",Karmine Corp,0.0071
+0,"Single elimination Bo5, seeded",Gen.G,0.4449
+0,"Single elimination Bo5, seeded",Anyone's Legend,0.039375
+0,"Single elimination Bo5, seeded",Team Liquid,0.01455
+0,"Single elimination Bo5, seeded",G2 Esports,0.019225
+0,"Single elimination Bo5, seeded",Team Secret Whales,0.000425
+0,"Single elimination Bo5, seeded",LØS,0.0
+0,"Single elimination Bo5, seeded",Hanwha Life Esports,0.15385
+0,"Single elimination Bo5, seeded",Bilibili Gaming,0.2003
+0,"Single elimination Bo5, seeded",LYON,0.003025
+0,"Single elimination Bo5, seeded",Movistar KOI,0.000325
+0,"Single elimination Bo5, seeded",T1,0.05125
+0,"Single elimination Bo5, seeded",Top Esports,0.00445
+0,"Single elimination Bo5, seeded",CTBC Flying Oyster,0.0
+0,"Single elimination Bo5, seeded",Invictus Gaming,0.006575
+0,"Single elimination Bo5, seeded",Dplus KIA,0.058725
+0,"Single elimination Bo5, seeded",Karmine Corp,0.003025
+0,"Double round-robin league, Bo1",Gen.G,0.49875
+0,"Double round-robin league, Bo1",Anyone's Legend,0.03705
+0,"Double round-robin league, Bo1",Team Liquid,0.011375
+0,"Double round-robin league, Bo1",G2 Esports,0.01445
+0,"Double round-robin league, Bo1",Team Secret Whales,0.00015
+0,"Double round-robin league, Bo1",LØS,0.0
+0,"Double round-robin league, Bo1",Hanwha Life Esports,0.151
+0,"Double round-robin league, Bo1",Bilibili Gaming,0.184525
+0,"Double round-robin league, Bo1",LYON,0.002475
+0,"Double round-robin league, Bo1",Movistar KOI,0.0
+0,"Double round-robin league, Bo1",T1,0.0452
+0,"Double round-robin league, Bo1",Top Esports,0.0031
+0,"Double round-robin league, Bo1",CTBC Flying Oyster,0.0
+0,"Double round-robin league, Bo1",Invictus Gaming,0.0055
+0,"Double round-robin league, Bo1",Dplus KIA,0.044575
+0,"Double round-robin league, Bo1",Karmine Corp,0.00185
+0,"Double elimination Bo5, seeded",Gen.G,0.501375
+0,"Double elimination Bo5, seeded",Anyone's Legend,0.02945
+0,"Double elimination Bo5, seeded",Team Liquid,0.010125
+0,"Double elimination Bo5, seeded",G2 Esports,0.01285
+0,"Double elimination Bo5, seeded",Team Secret Whales,2.5e-05
+0,"Double elimination Bo5, seeded",LØS,0.0
+0,"Double elimination Bo5, seeded",Hanwha Life Esports,0.15105
+0,"Double elimination Bo5, seeded",Bilibili Gaming,0.2014
+0,"Double elimination Bo5, seeded",LYON,0.00125
+0,"Double elimination Bo5, seeded",Movistar KOI,0.000125
+0,"Double elimination Bo5, seeded",T1,0.039225
+0,"Double elimination Bo5, seeded",Top Esports,0.002225
+0,"Double elimination Bo5, seeded",CTBC Flying Oyster,0.0
+0,"Double elimination Bo5, seeded",Invictus Gaming,0.00375
+0,"Double elimination Bo5, seeded",Dplus KIA,0.0461
+0,"Double elimination Bo5, seeded",Karmine Corp,0.00105
+0,"League + playoffs, Bo1 then Bo5",Gen.G,0.414225
+0,"League + playoffs, Bo1 then Bo5",Anyone's Legend,0.049925
+0,"League + playoffs, Bo1 then Bo5",Team Liquid,0.022875
+0,"League + playoffs, Bo1 then Bo5",G2 Esports,0.024675
+0,"League + playoffs, Bo1 then Bo5",Team Secret Whales,0.000425
+0,"League + playoffs, Bo1 then Bo5",LØS,0.0
+0,"League + playoffs, Bo1 then Bo5",Hanwha Life Esports,0.155275
+0,"League + playoffs, Bo1 then Bo5",Bilibili Gaming,0.1845
+0,"League + playoffs, Bo1 then Bo5",LYON,0.00495
+0,"League + playoffs, Bo1 then Bo5",Movistar KOI,0.000375
+0,"League + playoffs, Bo1 then Bo5",T1,0.0598
+0,"League + playoffs, Bo1 then Bo5",Top Esports,0.00715
+0,"League + playoffs, Bo1 then Bo5",CTBC Flying Oyster,0.0
+0,"League + playoffs, Bo1 then Bo5",Invictus Gaming,0.0117
+0,"League + playoffs, Bo1 then Bo5",Dplus KIA,0.05985
+0,"League + playoffs, Bo1 then Bo5",Karmine Corp,0.004275
+102,Swiss + Bo5 knockouts (2023-26),Gen.G,0.33785
+102,Swiss + Bo5 knockouts (2023-26),Anyone's Legend,0.0392
+102,Swiss + Bo5 knockouts (2023-26),Team Liquid,0.017975
+102,Swiss + Bo5 knockouts (2023-26),G2 Esports,0.019525
+102,Swiss + Bo5 knockouts (2023-26),Team Secret Whales,0.000475
+102,Swiss + Bo5 knockouts (2023-26),LØS,2.5e-05
+102,Swiss + Bo5 knockouts (2023-26),Hanwha Life Esports,0.12575
+102,Swiss + Bo5 knockouts (2023-26),Bilibili Gaming,0.14195
+102,Swiss + Bo5 knockouts (2023-26),LYON,0.004875
+102,Swiss + Bo5 knockouts (2023-26),Movistar KOI,0.00035
+102,Swiss + Bo5 knockouts (2023-26),T1,0.2461
+102,Swiss + Bo5 knockouts (2023-26),Top Esports,0.006025
+102,Swiss + Bo5 knockouts (2023-26),CTBC Flying Oyster,0.0
+102,Swiss + Bo5 knockouts (2023-26),Invictus Gaming,0.00845
+102,Swiss + Bo5 knockouts (2023-26),Dplus KIA,0.0475
+102,Swiss + Bo5 knockouts (2023-26),Karmine Corp,0.00395
+177,Swiss + Bo5 knockouts (2023-26),Gen.G,0.25545
+177,Swiss + Bo5 knockouts (2023-26),Anyone's Legend,0.02575
+177,Swiss + Bo5 knockouts (2023-26),Team Liquid,0.01145
+177,Swiss + Bo5 knockouts (2023-26),G2 Esports,0.012225
+177,Swiss + Bo5 knockouts (2023-26),Team Secret Whales,0.00035
+177,Swiss + Bo5 knockouts (2023-26),LØS,0.0
+177,Swiss + Bo5 knockouts (2023-26),Hanwha Life Esports,0.08675
+177,Swiss + Bo5 knockouts (2023-26),Bilibili Gaming,0.1027
+177,Swiss + Bo5 knockouts (2023-26),LYON,0.0026
+177,Swiss + Bo5 knockouts (2023-26),Movistar KOI,0.000375
+177,Swiss + Bo5 knockouts (2023-26),T1,0.4605
+177,Swiss + Bo5 knockouts (2023-26),Top Esports,0.0037
+177,Swiss + Bo5 knockouts (2023-26),CTBC Flying Oyster,0.0
+177,Swiss + Bo5 knockouts (2023-26),Invictus Gaming,0.0059
+177,Swiss + Bo5 knockouts (2023-26),Dplus KIA,0.0305
+177,Swiss + Bo5 knockouts (2023-26),Karmine Corp,0.00175
+177,Swiss + Bo3 knockouts,Gen.G,0.24315
+177,Swiss + Bo3 knockouts,Anyone's Legend,0.036075
+177,Swiss + Bo3 knockouts,Team Liquid,0.0188
+177,Swiss + Bo3 knockouts,G2 Esports,0.01915
+177,Swiss + Bo3 knockouts,Team Secret Whales,0.00105
+177,Swiss + Bo3 knockouts,LØS,7.5e-05
+177,Swiss + Bo3 knockouts,Hanwha Life Esports,0.100375
+177,Swiss + Bo3 knockouts,Bilibili Gaming,0.11195
+177,Swiss + Bo3 knockouts,LYON,0.005325
+177,Swiss + Bo3 knockouts,Movistar KOI,0.000775
+177,Swiss + Bo3 knockouts,T1,0.3986
+177,Swiss + Bo3 knockouts,Top Esports,0.007275
+177,Swiss + Bo3 knockouts,CTBC Flying Oyster,0.0
+177,Swiss + Bo3 knockouts,Invictus Gaming,0.01035
+177,Swiss + Bo3 knockouts,Dplus KIA,0.0422
+177,Swiss + Bo3 knockouts,Karmine Corp,0.00485
+177,Swiss + Bo7 knockouts,Gen.G,0.260325
+177,Swiss + Bo7 knockouts,Anyone's Legend,0.0188
+177,Swiss + Bo7 knockouts,Team Liquid,0.0076
+177,Swiss + Bo7 knockouts,G2 Esports,0.007975
+177,Swiss + Bo7 knockouts,Team Secret Whales,2.5e-05
+177,Swiss + Bo7 knockouts,LØS,0.0
+177,Swiss + Bo7 knockouts,Hanwha Life Esports,0.07485
+177,Swiss + Bo7 knockouts,Bilibili Gaming,0.092975
+177,Swiss + Bo7 knockouts,LYON,0.0014
+177,Swiss + Bo7 knockouts,Movistar KOI,0.000125
+177,Swiss + Bo7 knockouts,T1,0.50675
+177,Swiss + Bo7 knockouts,Top Esports,0.001975
+177,Swiss + Bo7 knockouts,CTBC Flying Oyster,0.0
+177,Swiss + Bo7 knockouts,Invictus Gaming,0.003275
+177,Swiss + Bo7 knockouts,Dplus KIA,0.023025
+177,Swiss + Bo7 knockouts,Karmine Corp,0.0009
+177,Groups + Bo5 knockouts (2014-22),Gen.G,0.2515
+177,Groups + Bo5 knockouts (2014-22),Anyone's Legend,0.0287
+177,Groups + Bo5 knockouts (2014-22),Team Liquid,0.0131
+177,Groups + Bo5 knockouts (2014-22),G2 Esports,0.015125
+177,Groups + Bo5 knockouts (2014-22),Team Secret Whales,0.000225
+177,Groups + Bo5 knockouts (2014-22),LØS,2.5e-05
+177,Groups + Bo5 knockouts (2014-22),Hanwha Life Esports,0.089
+177,Groups + Bo5 knockouts (2014-22),Bilibili Gaming,0.099475
+177,Groups + Bo5 knockouts (2014-22),LYON,0.002775
+177,Groups + Bo5 knockouts (2014-22),Movistar KOI,0.000175
+177,Groups + Bo5 knockouts (2014-22),T1,0.4557
+177,Groups + Bo5 knockouts (2014-22),Top Esports,0.00385
+177,Groups + Bo5 knockouts (2014-22),CTBC Flying Oyster,0.0
+177,Groups + Bo5 knockouts (2014-22),Invictus Gaming,0.006025
+177,Groups + Bo5 knockouts (2014-22),Dplus KIA,0.03195
+177,Groups + Bo5 knockouts (2014-22),Karmine Corp,0.002375
+177,"Single elimination Bo5, random",Gen.G,0.251
+177,"Single elimination Bo5, random",Anyone's Legend,0.028125
+177,"Single elimination Bo5, random",Team Liquid,0.0135
+177,"Single elimination Bo5, random",G2 Esports,0.01445
+177,"Single elimination Bo5, random",Team Secret Whales,0.000475
+177,"Single elimination Bo5, random",LØS,5e-05
+177,"Single elimination Bo5, random",Hanwha Life Esports,0.091875
+177,"Single elimination Bo5, random",Bilibili Gaming,0.096825
+177,"Single elimination Bo5, random",LYON,0.003625
+177,"Single elimination Bo5, random",Movistar KOI,0.000475
+177,"Single elimination Bo5, random",T1,0.448225
+177,"Single elimination Bo5, random",Top Esports,0.005075
+177,"Single elimination Bo5, random",CTBC Flying Oyster,0.0
+177,"Single elimination Bo5, random",Invictus Gaming,0.007025
+177,"Single elimination Bo5, random",Dplus KIA,0.036025
+177,"Single elimination Bo5, random",Karmine Corp,0.00325
+177,"Single elimination Bo5, seeded",Gen.G,0.27675
+177,"Single elimination Bo5, seeded",Anyone's Legend,0.01835
+177,"Single elimination Bo5, seeded",Team Liquid,0.005725
+177,"Single elimination Bo5, seeded",G2 Esports,0.007925
+177,"Single elimination Bo5, seeded",Team Secret Whales,0.00015
+177,"Single elimination Bo5, seeded",LØS,0.0
+177,"Single elimination Bo5, seeded",Hanwha Life Esports,0.077825
+177,"Single elimination Bo5, seeded",Bilibili Gaming,0.0988
+177,"Single elimination Bo5, seeded",LYON,0.00135
+177,"Single elimination Bo5, seeded",Movistar KOI,7.5e-05
+177,"Single elimination Bo5, seeded",T1,0.4874
+177,"Single elimination Bo5, seeded",Top Esports,0.001775
+177,"Single elimination Bo5, seeded",CTBC Flying Oyster,0.0
+177,"Single elimination Bo5, seeded",Invictus Gaming,0.002525
+177,"Single elimination Bo5, seeded",Dplus KIA,0.020375
+177,"Single elimination Bo5, seeded",Karmine Corp,0.000975
+177,"Double round-robin league, Bo1",Gen.G,0.259775
+177,"Double round-robin league, Bo1",Anyone's Legend,0.012
+177,"Double round-robin league, Bo1",Team Liquid,0.00345
+177,"Double round-robin league, Bo1",G2 Esports,0.005025
+177,"Double round-robin league, Bo1",Team Secret Whales,2.5e-05
+177,"Double round-robin league, Bo1",LØS,0.0
+177,"Double round-robin league, Bo1",Hanwha Life Esports,0.06415
+177,"Double round-robin league, Bo1",Bilibili Gaming,0.0782
+177,"Double round-robin league, Bo1",LYON,0.0007
+177,"Double round-robin league, Bo1",Movistar KOI,2.5e-05
+177,"Double round-robin league, Bo1",T1,0.557775
+177,"Double round-robin league, Bo1",Top Esports,0.0009
+177,"Double round-robin league, Bo1",CTBC Flying Oyster,0.0
+177,"Double round-robin league, Bo1",Invictus Gaming,0.001625
+177,"Double round-robin league, Bo1",Dplus KIA,0.01595
+177,"Double round-robin league, Bo1",Karmine Corp,0.0004
+177,"Double elimination Bo5, seeded",Gen.G,0.2824
+177,"Double elimination Bo5, seeded",Anyone's Legend,0.00985
+177,"Double elimination Bo5, seeded",Team Liquid,0.003125
+177,"Double elimination Bo5, seeded",G2 Esports,0.004025
+177,"Double elimination Bo5, seeded",Team Secret Whales,2.5e-05
+177,"Double elimination Bo5, seeded",LØS,0.0
+177,"Double elimination Bo5, seeded",Hanwha Life Esports,0.061625
+177,"Double elimination Bo5, seeded",Bilibili Gaming,0.08385
+177,"Double elimination Bo5, seeded",LYON,0.000325
+177,"Double elimination Bo5, seeded",Movistar KOI,7.5e-05
+177,"Double elimination Bo5, seeded",T1,0.53945
+177,"Double elimination Bo5, seeded",Top Esports,0.00075
+177,"Double elimination Bo5, seeded",CTBC Flying Oyster,0.0
+177,"Double elimination Bo5, seeded",Invictus Gaming,0.000975
+177,"Double elimination Bo5, seeded",Dplus KIA,0.013225
+177,"Double elimination Bo5, seeded",Karmine Corp,0.0003
+177,"League + playoffs, Bo1 then Bo5",Gen.G,0.256425
+177,"League + playoffs, Bo1 then Bo5",Anyone's Legend,0.024125
+177,"League + playoffs, Bo1 then Bo5",Team Liquid,0.0106
+177,"League + playoffs, Bo1 then Bo5",G2 Esports,0.011225
+177,"League + playoffs, Bo1 then Bo5",Team Secret Whales,0.00015
+177,"League + playoffs, Bo1 then Bo5",LØS,0.0
+177,"League + playoffs, Bo1 then Bo5",Hanwha Life Esports,0.085175
+177,"League + playoffs, Bo1 then Bo5",Bilibili Gaming,0.09855
+177,"League + playoffs, Bo1 then Bo5",LYON,0.001775
+177,"League + playoffs, Bo1 then Bo5",Movistar KOI,7.5e-05
+177,"League + playoffs, Bo1 then Bo5",T1,0.4738
+177,"League + playoffs, Bo1 then Bo5",Top Esports,0.002575
+177,"League + playoffs, Bo1 then Bo5",CTBC Flying Oyster,0.0
+177,"League + playoffs, Bo1 then Bo5",Invictus Gaming,0.004125
+177,"League + playoffs, Bo1 then Bo5",Dplus KIA,0.02975
+177,"League + playoffs, Bo1 then Bo5",Karmine Corp,0.00165
+255,Swiss + Bo5 knockouts (2023-26),Gen.G,0.1608
+255,Swiss + Bo5 knockouts (2023-26),Anyone's Legend,0.01455
+255,Swiss + Bo5 knockouts (2023-26),Team Liquid,0.00575
+255,Swiss + Bo5 knockouts (2023-26),G2 Esports,0.0072
+255,Swiss + Bo5 knockouts (2023-26),Team Secret Whales,0.000125
+255,Swiss + Bo5 knockouts (2023-26),LØS,0.0
+255,Swiss + Bo5 knockouts (2023-26),Hanwha Life Esports,0.0521
+255,Swiss + Bo5 knockouts (2023-26),Bilibili Gaming,0.06205
+255,Swiss + Bo5 knockouts (2023-26),LYON,0.001525
+255,Swiss + Bo5 knockouts (2023-26),Movistar KOI,5e-05
+255,Swiss + Bo5 knockouts (2023-26),T1,0.672875
+255,Swiss + Bo5 knockouts (2023-26),Top Esports,0.002275
+255,Swiss + Bo5 knockouts (2023-26),CTBC Flying Oyster,0.0
+255,Swiss + Bo5 knockouts (2023-26),Invictus Gaming,0.0028
+255,Swiss + Bo5 knockouts (2023-26),Dplus KIA,0.017125
+255,Swiss + Bo5 knockouts (2023-26),Karmine Corp,0.000775

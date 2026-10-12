@@ -1,0 +1,26 @@
+:root{--bg:#fff;--fg:#1a1a1a;--mut:#666;--line:#e3e3e3;--acc:#c2410c;--card:#fafafa}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#ececec;--mut:#9a9a9a;--line:#2e2e2e;--acc:#fb923c;--card:#1c1c1c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;gap:20px;align-items:center;flex-wrap:wrap;padding:14px 16px}
+header a.brand{font-weight:800;letter-spacing:.02em;color:var(--fg);text-decoration:none;margin-right:auto}
+header a{color:var(--mut);text-decoration:none;font-size:.95rem}header a:hover{color:var(--acc)}
+a{color:var(--acc)}
+h1{font-size:2.1rem;line-height:1.2;margin:2.2rem 0 .5rem}
+h2{font-size:1.4rem;margin:2.4rem 0 .6rem}
+.lead{font-size:1.15rem;color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:1.5rem 0}
+.card{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:18px}
+.card h3{margin:.2rem 0 .4rem}.card p{margin:.3rem 0;color:var(--mut);font-size:.95rem}
+.tag{display:inline-block;font-size:.75rem;padding:1px 8px;border-radius:99px;border:1px solid var(--line);color:var(--mut);margin-right:4px}
+.ok{color:#15803d;border-color:#15803d}.part{color:#b45309;border-color:#b45309}.todo{color:var(--mut)}
+table{border-collapse:collapse;width:100%;font-size:.95rem;margin:1rem 0}
+th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+figure{margin:2rem 0}figure img{width:100%;height:auto;border:1px solid var(--line);border-radius:6px}
+figcaption{font-size:.9rem;color:var(--mut);margin-top:.4rem}
+pre{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;overflow-x:auto;font-size:.88rem;line-height:1.45}
+code{font-size:.9em}.note{border-left:4px solid var(--acc);padding:.2rem 1rem;background:var(--card);margin:1.5rem 0}
+footer{border-top:1px solid var(--line);margin-top:4rem;padding:20px 0;color:var(--mut);font-size:.9rem}
+@media(max-width:600px){h1{font-size:1.7rem}}
