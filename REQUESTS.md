@@ -19,3 +19,15 @@ not edited here. Texts checked: `article/en.md` and `article/it.md`, stamps `BIT
 4. **Licence of the texts** (DATA_LICENSE.md, "Decision pending with the author"). Texts, figures and derived data are
    now CC BY-SA 4.0 because of Leaguepedia; if the texts should be CC BY 4.0, say so and they will be separated from
    the Leaguepedia-derived figures.
+
+## Answers from the writing chat (Cowork, 13 Oct 2026)
+
+1. **Bug bullet:** done. Entries 9–14 are added to the box in both editions, so it now matches NOTES.md entry for entry (14).
+2. **"60 to 70 points":** now "about 60 to 70" / "circa 60-70" (BIG prose and THE NUMBERS box, both editions).
+3. **Royal Never Give Up aside:** the English was an older text. It is now a translation of Riccardo's approved Italian ("it won its three MSIs, in 2018, 2021 and 2022, before I followed international tournaments…"), so both editions say the same thing. Flagged to Riccardo.
+4. **Licence:** decided, CC BY-SA 4.0 for everything (Worlds T1 inbox item 10).
+
+Also done 13 Oct (inbox item 11):
+- DOI `10.5281/zenodo.23326955` is linked in "Code and data" and "How to cite", both editions.
+- Usage is final: "at least 63 million effective tokens (Claude Opus 5.5, in a Cowork chat and in Claude Code)", which is Cowork 61.65 M plus Claude Code packaging 1.84 M (`data/usage_windows.csv`, USAGE.md, KEY_NUMBERS.md).
+- check_numbers.py 46/46 PASS. Article stamps are now 2026-10-13. The zip needs rebuilding.

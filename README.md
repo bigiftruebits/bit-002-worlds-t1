@@ -13,11 +13,12 @@ The Zenodo record holds the code and data, not the article texts: `check_numbers
   year's format and the comparisons with published ratings and betting odds, to the charts, was written and executed by
   **Claude Opus 5.5** (Anthropic), in one extended Cowork session working from Riccardo Gallotti's instructions. He set
   the questions and the framing; the model did the work.
-- **Usage** → `USAGE.md`: at least 58 million effective tokens (Claude Opus 5.5), summed over the three logged
-  windows that do not overlap; the session's transcript was compressed several times, so the true figure is higher.
+- **Usage** → `USAGE.md`: at least 63 million effective tokens (Claude Opus 5.5, in a Cowork chat and in Claude Code),
+  summed over the logged windows that do not overlap; the Cowork transcript was compressed several times, so the true
+  figure is higher.
 - **Errors found and fixed** → `NOTES.md` (14 entries).
 - **Every printed number** → `KEY_NUMBERS.md`; `python check_numbers.py` re-derives 46 of them from `data/` and finds
-  each one in both editions: **46/46 PASS** (12 Oct 2026).
+  each one in both editions: **46/46 PASS** (13 Oct 2026).
 - **Peer-reviewed work** the article relies on: De Bois et al. (2025), *PandaSkill*, IEEE Transactions on Games;
   González-Díaz, Gossner & Rogers (2012), *J. Econ. Behav. Organ.*; Sziklai, Biró & Csató (2022), *Computers &
   Operations Research*. Full references in the article.

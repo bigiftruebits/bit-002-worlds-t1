@@ -1,5 +1,5 @@
-<!-- BIT · worlds-t1 · it · 2026-10-12 -->
-<!-- Edizione italiana, VERSIONE FINALE (12 ott 2026, approvata da Riccardo). Passaggi personali (aneddoto iniziale, coda) scritti da Riccardo. Numeri: claude/bit-tbd-worlds-t1-key-numbers.md; check_numbers.py nel repository (46/46). Figure: versioni italiane (-it.png). -->
+<!-- BIT · worlds-t1 · it · 2026-10-13 -->
+<!-- Edizione italiana, VERSIONE FINALE (12 ott 2026, approvata da Riccardo; 13 ott: richieste del packaging, DOI, utilizzo finale). Passaggi personali (aneddoto iniziale, coda) scritti da Riccardo. Numeri: claude/bit-tbd-worlds-t1-key-numbers.md; check_numbers.py nel repository (46/46). Figure: versioni italiane (-it.png). -->
 
 BIG IF TRUE
 
@@ -29,11 +29,11 @@ Per farlo, il metodo che ho scelto è l'Elo, il sistema degli scacchi: chi vince
 
 > **Figura 1.** Le 19 squadre qualificate ai Mondiali 2026, in ordine di punteggio Elo al 10 ottobre 2026 (il punto). La barra chiara va dal punteggio più basso al più alto di ciascuna squadra nel corso della stagione 2026; il colore rappresenta il campionato. Il punto dice in quale fase la squadra entra ai Mondiali: pieno per la fase svizzera a 16, vuoto per il play-in a quattro.
 
-Quest'anno cinque squadre sono state, a un certo punto, la numero uno al mondo: Gen.G, Bilibili Gaming, G2, T1 e Hanwha Life. Gen.G si è ripresa il primo posto vincendo a settembre il campionato coreano, la LCK, e arriva ai Mondiali a 1822 punti, 60-70 sopra Bilibili e Hanwha Life. T1 è quinta, appaiata a Dplus KIA (1697) a 1696, meno di un punto dietro: con questi punteggi batterebbe Gen.G circa una partita su tre. Le classifiche di Riot Games, che fa il gioco e organizza i Mondiali, e quelle di lolproelo.com, un sito Elo indipendente, sono d'accordo: T1 è quarta o quinta in entrambe.
+Quest'anno cinque squadre sono state, a un certo punto, la numero uno al mondo: Gen.G, Bilibili Gaming, G2, T1 e Hanwha Life. Gen.G si è ripresa il primo posto vincendo a settembre il campionato coreano, la LCK, e arriva ai Mondiali a 1822 punti, circa 60-70 sopra Bilibili e Hanwha Life. T1 è quinta, appaiata a Dplus KIA (1697) a 1696, meno di un punto dietro: con questi punteggi batterebbe Gen.G circa una partita su tre. Le classifiche di Riot Games, che fa il gioco e organizza i Mondiali, e quelle di lolproelo.com, un sito Elo indipendente, sono d'accordo: T1 è quarta o quinta in entrambe.
 
 > **I NUMERI**
 > **5** — le squadre che nel 2026 sono state, almeno per un po', la numero uno al mondo: Gen.G, Bilibili Gaming, G2, T1 e Hanwha Life
-> **1822** — il punteggio Elo di Gen.G alla vigilia dei Mondiali, il più alto al mondo, 60-70 punti sopra Bilibili e Hanwha Life
+> **1822** — il punteggio Elo di Gen.G alla vigilia dei Mondiali, il più alto al mondo, circa 60-70 punti sopra Bilibili e Hanwha Life
 > **126 punti** — il distacco Elo fra Gen.G e T1, campione degli ultimi tre Mondiali: con questa differenza T1 vincerebbe circa una partita su tre
 
 Nel 2023 le valutazioni erano altrettanto sicure, su un'altra squadra favorita. La domanda è se fidarsi di loro, o dell'unica squadra che continua a smentirle.
@@ -112,7 +112,7 @@ Come ho detto, in Wild Rift gioco principalmente con Orianna. Orianna non combat
 
 > **BIT — LE CARTE IN TAVOLA**
 > - **Modello e codice.** Ogni passaggio di questa analisi, dallo scaricamento dei dati ai punteggi Elo, dai simulatori dei tornei per il formato di ogni anno ai confronti con le classifiche pubblicate e con le quote delle scommesse, fino ai grafici, è stato scritto ed eseguito da Claude Opus 5.5 (Anthropic), in un'unica lunga sessione a partire dalle mie istruzioni. Io ho posto le domande e l'impostazione; il modello ha fatto il lavoro.
-> - **Utilizzo.** Almeno 58 milioni di token effettivi (Claude Opus 5.5), contando solo le parti del lavoro rimaste nei registri; il valore reale è più alto. [Quanto è stato contato è nel repository.](https://github.com/bigiftruebits/bit-002-worlds-t1/blob/main/USAGE.md)
+> - **Utilizzo.** Almeno 63 milioni di token effettivi (Claude Opus 5.5, in una chat Cowork e in Claude Code), contando solo le parti del lavoro rimaste nei registri; il valore reale è più alto. [Quanto è stato contato è nel repository.](https://github.com/bigiftruebits/bit-002-worlds-t1/blob/main/USAGE.md)
 > - **Bug trovati e corretti durante il lavoro.**
 >   - Il mio notebook del 2025, il punto di partenza: giocava ogni serie a eliminazione come una partita sola invece che al meglio delle cinque, il che appiattisce le probabilità verso le sorprese; estraeva il risultato del play-in una volta sola e lo riusava per tutti i 100.000 tornei; rimescolava il gruppo sbagliato prima dell'ultimo turno svizzero.
 >   - Una ricerca per testo contava come Mondiali l'IEM World Championship, un altro torneo, e gonfiava di due vittorie il sovrarendimento di T1.
@@ -122,14 +122,20 @@ Come ho detto, in Wild Rift gioco principalmente con Orianna. Orianna non combat
 >   - La prima versione dei punteggi riavvicinava ogni inverno, in parte, la forza dei campionati. Le prove hanno mostrato che così i Mondiali si prevedevano peggio; la versione finale la porta avanti per intero.
 >   - L'ultimo risultato delle qualificazioni nordamericane l'avevamo preso da Wikipedia, che lo dava al contrario (Cloud9 su LYON). Due articoli controllati il giorno dopo dicevano che aveva vinto LYON; la previsione è stata rifatta.
 >   - Una prima figura dava come incerto il percorso di Team Liquid verso i Mondiali quando era già sicura della fase svizzera.
+>   - Le figure italiane uscivano con la scala verticale allungata: il passaggio che traduce le etichette ne cambiava i limiti. Sono state ridisegnate tutte.
+>   - Il confronto con un modello Bradley–Terry dava all'inizio il 50% di partite indovinate, quanto il caso: i pesi nel tempo non erano normalizzati. Corretto.
+>   - Il codice che ricostruisce l'ordine delle partite dentro una serie usava una funzione che cambia a ogni esecuzione: ricostruendo il file, 978 partite su 51.034 (1,9%) cambiano ordine. I numeri pubblicati usano il file originale; l'effetto sui punteggi è al massimo di pochi punti.
+>   - Il testo diceva «sei risultati aggiunti a mano» quando erano cinque; con la finale brasiliana sono diventati sei.
+>   - Un mio inciso collocava i successi di Royal Never Give Up prima che seguissi il gioco; due dei suoi tre MSI sono venuti dopo. L'ho riscritto.
+>   - Lo script della Figura 1 disegnava ancora un vecchio titolo («T1 quarta a pari merito»); la figura pubblicata era giusta, ma chi rilanciava il codice avrebbe visto il titolo vecchio.
 >   - [Il registro completo è nel repository.](https://github.com/bigiftruebits/bit-002-worlds-t1/blob/main/NOTES.md) Ogni errore qui elencato è stato trovato e corretto prima della pubblicazione. Non posso promettere che non ne restino.
 > - **Fonti dei dati.** Risultati di partite e serie: Leaguepedia, tramite il dataset `gptilt/lol-esports-matches` su Hugging Face (istantanea del 27 settembre 2026, CC BY-SA 3.0), più sei risultati di serie dal 27 settembre al 10 ottobre aggiunti a mano da Sheep Esports, Dot Esports, Terra, Strafe e Pichau Arena. Global Power Rankings di LoL Esports (Riot Games), 2024–2026. Punteggi di lolproelo.com al giorno prima di ogni Mondiale e MSI. Quote: anteprima di Pinnacle del 26 settembre 2023 e quote di Stake riportate da win.gg il 13 ottobre 2025, margine tolto normalizzando. Formati e regole dei Mondiali: le pagine Wikipedia dei tornei 2019 e 2024, e il formato e le qualificazioni 2026 come riportati da Sheep Esports, esports.gg, Fragster e Insider Gaming. L'infortunio di Faker nel 2023: Wikipedia, "Faker (gamer)"; Dexerto, 19 novembre 2023. La frase di Drakos, T1 contro JD Gaming, semifinale dei Mondiali 2023, trascritta dall'autore. Calcio: risultati delle nazionali dal dataset `martj42/international_results` su GitHub (fino al 6 ottobre 2026), con punteggi Elo calcolati da noi con il metodo pubblicato da eloratings.net.
 > - **Studi peer-reviewed correlati.**
 >   - De Bois, M., Parmentier, F., Puget, R., Tanti, M., & Peltier, J. (2025). "PandaSkill — Player Performance and Skill Rating in Esports: Application to League of Legends." *IEEE Transactions on Games* 17(4), 989–1002. doi:10.1109/TG.2025.3581070. Valuta giocatori e regioni con la stessa idea a due livelli della nostra e prevede più o meno altrettanto bene; non guarda T1 né i Mondiali rispetto al MSI. Numeri citati dalla versione arXiv (2501.10049).
 >   - González-Díaz, J., Gossner, O., & Rogers, B. W. (2012). "Performing best when it matters most: Evidence from professional tennis." *Journal of Economic Behavior & Organization* 84(3), 767–781. doi:10.1016/j.jebo.2012.09.021. I giocatori differiscono nella "abilità critica", il saper alzare il livello nei punti importanti: l'equivalente individuale di un bonus da Mondiali.
 >   - Sziklai, B. R., Biró, P., & Csató, L. (2022). "The efficacy of tournament designs." *Computers & Operations Research*, 144, 105821. doi:10.1016/j.cor.2022.105821 (arXiv 2103.06023). Trova il sistema svizzero il formato più accurato per ordinare un gruppo; la domanda è sull'intera classifica, non sul campione.
-> - **Codice e dati.** [github.com/bigiftruebits/bit-002-worlds-t1](https://github.com/bigiftruebits/bit-002-worlds-t1); archiviati, codice e dati insieme, su [ZENODO_DOI].
-> - **Come citarlo.** Questo non è un articolo sottoposto a revisione scientifica. Se ti serve comunque citarlo, cita il codice e i dati archiviati: Gallotti, R. (2026). BIG IF TRUE #002: T1: the Korean esports team that transforms in October [Code and data]. Zenodo. [ZENODO_DOI]
+> - **Codice e dati.** [github.com/bigiftruebits/bit-002-worlds-t1](https://github.com/bigiftruebits/bit-002-worlds-t1); archiviati, codice e dati insieme, su [10.5281/zenodo.23326955](https://doi.org/10.5281/zenodo.23326955).
+> - **Come citarlo.** Questo non è un articolo sottoposto a revisione scientifica. Se ti serve comunque citarlo, cita il codice e i dati archiviati: Gallotti, R. (2026). BIG IF TRUE #002: T1: the Korean esports team that transforms in October [Code and data]. Zenodo. [10.5281/zenodo.23326955](https://doi.org/10.5281/zenodo.23326955)
 
 *Preferisco che qualcuno trovi un errore piuttosto che nessuno guardi. [Codice e dati](https://github.com/bigiftruebits/bit-002-worlds-t1) sono aperti, e pubblicati con ogni uscita.*
 

@@ -186,4 +186,4 @@ After the CBLOL final (10 Oct): set real seeds, rerun `forecast_2026.py`, `forma
 - `check_numbers.py` in the package: 58/58 PASS on both editions.
 
 ### Usage (12 Oct 2026)
-- At least **58 million** effective tokens (Claude Opus 5.5): 18.13 + 19.23 + 21.59 = 58.95 M, three non-overlapping logged windows (`data/usage_windows.csv`, method in USAGE.md). Lower bound; no price.
+- At least **63 million** effective tokens (Claude Opus 5.5, in a Cowork chat and in Claude Code): Cowork 18.13 + 19.23 + 24.29 = 61.65 M (three non-overlapping logged windows) + Claude Code packaging 1.84 M = 63.49 M (`data/usage_windows.csv`, method in USAGE.md; 13 Oct). Lower bound; no price.

@@ -1,5 +1,5 @@
-<!-- BIT · worlds-t1 · en · 2026-10-12 -->
-<!-- English edition, FINAL (12 Oct 2026, approved by Riccardo). Personal passages (opening anecdote, coda) are Riccardo's, translated from his Italian. Numbers: claude/bit-tbd-worlds-t1-key-numbers.md; check_numbers.py in the repository (46/46). Figures: English versions. -->
+<!-- BIT · worlds-t1 · en · 2026-10-13 -->
+<!-- English edition, FINAL (12 Oct 2026, approved by Riccardo; 13 Oct: packaging requests, DOI, final usage). Personal passages (opening anecdote, coda) are Riccardo's, translated from his Italian. Numbers: claude/bit-tbd-worlds-t1-key-numbers.md; check_numbers.py in the repository (46/46). Figures: English versions. -->
 
 BIG IF TRUE
 
@@ -29,11 +29,11 @@ To do it, the method I chose is Elo, the system chess uses: a win earns points, 
 
 > **Figure 1.** The 19 teams qualified for Worlds 2026, ranked by their Elo rating on 10 October 2026 (dot). The pale bar spans each team's lowest and highest rating during the 2026 season; colour is the league. The dot shows where the team enters Worlds: full for the 16-team Swiss stage, open for the four-team play-in.
 
-Five teams have been rated world No. 1 at some point this year: Gen.G, Bilibili Gaming, G2, T1 and Hanwha Life. Gen.G took the lead back by winning Korea's league, the LCK, in September, and enters Worlds at 1822, 60 to 70 points ahead of Bilibili and Hanwha Life. T1 is fifth, level with Dplus KIA (1697) at 1696, less than a point behind: on these ratings it would beat Gen.G in about one game in three. The rankings of Riot Games, which makes the game and runs Worlds, and those of lolproelo.com, an independent Elo site, agree: T1 is fourth or fifth on both.
+Five teams have been rated world No. 1 at some point this year: Gen.G, Bilibili Gaming, G2, T1 and Hanwha Life. Gen.G took the lead back by winning Korea's league, the LCK, in September, and enters Worlds at 1822, about 60 to 70 points ahead of Bilibili and Hanwha Life. T1 is fifth, level with Dplus KIA (1697) at 1696, less than a point behind: on these ratings it would beat Gen.G in about one game in three. The rankings of Riot Games, which makes the game and runs Worlds, and those of lolproelo.com, an independent Elo site, agree: T1 is fourth or fifth on both.
 
 > **THE NUMBERS**
 > **5** — teams that have been rated No. 1 in the world at some point in 2026: Gen.G, Bilibili Gaming, G2, T1 and Hanwha Life
-> **1822** — Gen.G's Elo rating going into Worlds, the highest in the world and 60 to 70 points clear of Bilibili and Hanwha Life
+> **1822** — Gen.G's Elo rating going into Worlds, the highest in the world and about 60 to 70 points clear of Bilibili and Hanwha Life
 > **126 points** — the Elo gap between Gen.G and T1, the three-time defending champion: at that distance T1 would win about one game in three
 
 The ratings were just as sure in 2023, about a different favourite. The question is whether to believe them, or the one team that keeps proving them wrong.
@@ -60,7 +60,7 @@ Gen.G is the mirror image. The favourite at three of the last four Worlds, it we
 > - **T1:** the underdog in 9 of its 12 such series at Worlds main events, it won all twelve, against about 5 expected: a run with about one chance in 100,000. Add the 2025 play-in against Invictus Gaming and it is 13 of 13, one in 220,000.
 > - **The three titles:** T1's nine knockout series from 2023 to 2025, at the ratings of the day, had one chance in 42,000 of all going its way. The worst were the 2023 semi-final against JD Gaming (13%) and the 2024 semi-final against Gen.G (12%).
 
-Nobody else comes close. Of some thirty teams tested at both events, the only other record that survives a correction for that many tries is Royal Never Give Up, a Chinese team, at MSI, the green dashed line: 15 wins above its rating there, level with it at Worlds. I don't know that team's story: its best years came before I followed the pros, and between 2019 and 2022 I watched guides and a few streamers, not tournaments.
+Nobody else comes close. Of some thirty teams tested at both events, the only other record that survives a correction for that many tries is Royal Never Give Up, a Chinese team, at MSI, the green dashed line: 15 wins above its rating there, level with it at Worlds. I don't know this team's story: it won its three MSIs, in 2018, 2021 and 2022, before I followed international tournaments. But the statistics say it was the only other team to do much better than expected, at MSI rather than at Worlds: the only other statistical exception.
 
 It is not our ratings: lolproelo.com's leave T1 23 wins above expectation at Worlds and 7 below at MSI. The betting market saw more. Before Worlds 2023, Pinnacle's odds, with the bookmaker's margin removed, gave T1 about one chance in fifteen, four times our figure; before 2025, Stake's gave it about one in ten, close to ours.
 
@@ -112,7 +112,7 @@ As I said, in Wild Rift I mostly play Orianna. Orianna hardly ever fights in per
 
 > **BIT — CARDS ON THE TABLE**
 > - **Model & code.** Every step of this analysis, from downloading the data through the Elo ratings, the tournament simulators for each year's format and the comparisons with published ratings and betting odds, to the charts, was written and executed by Claude Opus 5.5 (Anthropic), in one extended session working from my instructions. I set the questions and the framing; the model did the work.
-> - **Usage.** At least 58 million effective tokens (Claude Opus 5.5), counting only the parts of the work the logs kept; the true figure is higher. [What was counted is in the repository.](https://github.com/bigiftruebits/bit-002-worlds-t1/blob/main/USAGE.md)
+> - **Usage.** At least 63 million effective tokens (Claude Opus 5.5, in a Cowork chat and in Claude Code), counting only the parts of the work the logs kept; the true figure is higher. [What was counted is in the repository.](https://github.com/bigiftruebits/bit-002-worlds-t1/blob/main/USAGE.md)
 > - **Bugs found and fixed in development.**
 >   - My own 2025 notebook, the starting point: it played every knockout series as one game instead of best-of-five, which flattens the odds towards upsets; it drew the play-in result once and reused it for all 100,000 tournaments; it re-shuffled the wrong group before the last Swiss round.
 >   - A text match counted the IEM World Championship, a different tournament, as Worlds, which inflated T1's over-performance by two wins.
@@ -122,13 +122,19 @@ As I said, in Wild Rift I mostly play Orianna. Orianna hardly ever fights in per
 >   - The first version of the ratings pulled the leagues' strength part of the way back together each winter. Testing showed this made Worlds predictions worse; the final version carries it over in full.
 >   - North America's last qualifying result was first taken from Wikipedia, which had it the wrong way round (Cloud9 beating LYON). Checking two news reports the next day showed LYON had won; the forecast was rerun.
 >   - An early figure listed Team Liquid's path to Worlds as undecided when it was already sure of the Swiss stage.
+>   - The Italian figures came out with a stretched vertical scale: the step that translates the labels changed their limits. All were redrawn.
+>   - The comparison with a Bradley–Terry model first predicted 50% of games right, no better than chance: its time weights were not normalised. Fixed.
+>   - The code that rebuilds the order of games inside a series used a function that changes at every run: rebuilding the file reorders 978 of 51,034 games (1.9%). The published numbers use the original file; the effect on ratings is a few points at most.
+>   - The text said "six results added by hand" when there were five; with the Brazilian final they became six.
+>   - An aside of mine placed Royal Never Give Up's success before I followed the game; two of its three MSI titles came after. I rewrote it.
+>   - The Figure 1 script still drew an old title ("T1 joint fourth"); the published figure was right, but anyone rerunning the code would have seen the old title.
 >   - [The full log is in the repository.](https://github.com/bigiftruebits/bit-002-worlds-t1/blob/main/NOTES.md) Every error listed here was caught and fixed before publication. I cannot promise none remain.
 > - **Data sources.** Game and series results: Leaguepedia, via the `gptilt/lol-esports-matches` dataset on Hugging Face (snapshot of 27 September 2026, CC BY-SA 3.0), plus six series results from 27 September to 10 October added by hand from Sheep Esports, Dot Esports, Terra, Strafe and Pichau Arena. Riot Games' LoL Esports Global Power Rankings, 2024–2026. lolproelo.com ratings as of the day before each Worlds and MSI. Betting odds: Pinnacle's outright preview of 26 September 2023, and Stake's outright odds as reported by win.gg on 13 October 2025, margin removed by normalising. Worlds formats and rules: Wikipedia's tournament pages for 2019 and 2024, and the 2026 format and qualification as reported by Sheep Esports, esports.gg, Fragster and Insider Gaming. Faker's 2023 injury: Wikipedia, "Faker (gamer)"; Dexerto, 19 November 2023. Drakos's call, T1 against JD Gaming, Worlds 2023 semi-final broadcast, as transcribed by the author. Football: national-team results from the `martj42/international_results` dataset on GitHub (to 6 October 2026), with Elo ratings we computed using eloratings.net's published method.
 > - **Related peer-reviewed work.**
 >   - De Bois, M., Parmentier, F., Puget, R., Tanti, M., & Peltier, J. (2025). "PandaSkill — Player Performance and Skill Rating in Esports: Application to League of Legends." *IEEE Transactions on Games* 17(4), 989–1002. doi:10.1109/TG.2025.3581070. Rates players and regions with the same two-level idea as ours and predicts about as well; it does not look at T1 or at Worlds against MSI. Figures quoted from the arXiv version (2501.10049).
 >   - González-Díaz, J., Gossner, O., & Rogers, B. W. (2012). "Performing best when it matters most: Evidence from professional tennis." *Journal of Economic Behavior & Organization* 84(3), 767–781. doi:10.1016/j.jebo.2012.09.021. Players differ in "critical ability", raising their game on important points: the individual analogue of a Worlds-specific bonus.
 >   - Sziklai, B. R., Biró, P., & Csató, L. (2022). "The efficacy of tournament designs." *Computers & Operations Research*, 144, 105821. doi:10.1016/j.cor.2022.105821 (arXiv 2103.06023). Finds the Swiss system the most accurate design for ranking a field; it asks about the whole ranking, not the champion.
-> - **Code and data.** [github.com/bigiftruebits/bit-002-worlds-t1](https://github.com/bigiftruebits/bit-002-worlds-t1); archived, code and data together, at [ZENODO_DOI].
-> - **How to cite.** This is not a peer-reviewed publication. If you need to reference it anyway, cite the archived code and data: Gallotti, R. (2026). BIG IF TRUE #002: T1: the Korean esports team that transforms in October [Code and data]. Zenodo. [ZENODO_DOI]
+> - **Code and data.** [github.com/bigiftruebits/bit-002-worlds-t1](https://github.com/bigiftruebits/bit-002-worlds-t1); archived, code and data together, at [10.5281/zenodo.23326955](https://doi.org/10.5281/zenodo.23326955).
+> - **How to cite.** This is not a peer-reviewed publication. If you need to reference it anyway, cite the archived code and data: Gallotti, R. (2026). BIG IF TRUE #002: T1: the Korean esports team that transforms in October [Code and data]. Zenodo. [10.5281/zenodo.23326955](https://doi.org/10.5281/zenodo.23326955)
 
 *I would rather someone found a mistake than that nobody looked. [Code and data](https://github.com/bigiftruebits/bit-002-worlds-t1) are open, and published with every issue.*
