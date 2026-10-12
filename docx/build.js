@@ -1,19 +1,7 @@
-/*
- * Build the Word drafts of the article used for review (English and Italian), with the figures in place.
- *
- * Reads a Markdown edition and writes a .docx; the default paths are those of the Cowork chat that wrote it.
- * Not needed for the analysis or for check_numbers.py.
- *
- *     node build.js <article.md> <out.docx>
- *
- * BIG IF TRUE · worlds-t1 · https://github.com/bigiftruebits/bit-002-worlds-t1
- * Author: Riccardo Gallotti (FBK). Code by Claude Opus 5.5 under his direction.
- * Licence: MIT (code); data licences in DATA_MANIFEST.md.
- */
 const fs=require('fs');
 const {ExternalHyperlink,Document,Packer,Paragraph,TextRun,ImageRun,Table,TableRow,TableCell,WidthType,ShadingType,BorderStyle,AlignmentType,HeadingLevel,LevelFormat,Footer,PageNumber}=require('docx');
 const MD=process.argv[2]||'/home/claude/worlds/artifact/proj/bit-tbd-worlds-t1-article.md'; const OUTF=process.argv[3]||'/mnt/user-data/outputs/bit-tbd-worlds-t1-draft.docx';
-const FIG={1:'fig-002-big-worlds-elo-2026.png',2:'fig-002-if-worlds-t1.png',3:'fig-002-true-formats.png',odds:'fig-002-odds-2026.png'};
+const FIG={1:'fig-tbd-big-worlds-elo-2026.png',2:'fig-tbd-if-worlds-t1.png',3:'fig-tbd-true-formats.png',odds:'fig-tbd-odds-2026.png'};
 const FIGDIR='/home/claude/worlds/artifact/';
 const ACC='C1440E', FONT='Georgia', SANS='Arial';
 const BOX={verdict:{fill:'FBEFE9',rule:ACC},numbers:{fill:'FBEFE9',rule:ACC},callout:{fill:'EEF3F6',rule:'5B8FA8'},lit:{fill:'EDF2EE',rule:'2E6B57'},receipts:{fill:'F0F3F5',rule:'2F4F5F'},predictions:{fill:'EEF3F6',rule:'5B8FA8'}};
@@ -69,7 +57,7 @@ while(i<md.length){
     const h=blk[0];
     const fm=h.match(/^\*\*(Figure|Figura) (\d)\.\*\* (.*)/);
     if(fm){ body.push(...figure(+fm[2],'**'+fm[1]+' '+fm[2]+'.** '+fm[3])); continue; }
-    const kind=/VERDICT/.test(h)?'verdict':/NUMBERS|I NUMERI/.test(h)?'numbers':/LITERATURE|LETTERATURA/.test(h)?'lit':/PIPELINE|CARDS ON THE TABLE|CARTE IN TAVOLA/.test(h)?'receipts':/PREDICTIONS|PREVISIONI/.test(h)?'predictions':'callout';
+    const kind=/VERDICT|VERDETTO/.test(h)?'verdict':/NUMBERS|I NUMERI/.test(h)?'numbers':/LITERATURE|LETTERATURA/.test(h)?'lit':/PIPELINE|CARDS ON THE TABLE|CARTE IN TAVOLA/.test(h)?'receipts':/PREDICTIONS|PREVISIONI/.test(h)?'predictions':'callout';
     // THE NUMBERS lines: "**5** — text"
     body.push(box(kind,blk)); body.push(new Paragraph({spacing:{after:120},children:[]})); continue; }
   if(l.startsWith('|')){ const tl=[]; while(i<md.length&&md[i].startsWith('|')){tl.push(md[i]);i++;}

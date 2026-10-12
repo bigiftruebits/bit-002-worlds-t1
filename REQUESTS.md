@@ -31,3 +31,8 @@ Also done 13 Oct (inbox item 11):
 - DOI `10.5281/zenodo.23326955` is linked in "Code and data" and "How to cite", both editions.
 - Usage is final: "at least 63 million effective tokens (Claude Opus 5.5, in a Cowork chat and in Claude Code)", which is Cowork 61.65 M plus Claude Code packaging 1.84 M (`data/usage_windows.csv`, USAGE.md, KEY_NUMBERS.md).
 - check_numbers.py 46/46 PASS. Article stamps are now 2026-10-13. The zip needs rebuilding.
+
+## Writing chat, 13 Oct 2026 (after the manager's last consistency check, inbox item 13)
+
+Changed today: `article/en.md`, `article/it.md` (Verdict Claim and Reality wording, Figure 2 caption, 2013 sentence), **`KEY_NUMBERS.md`** (single round-robin source line; Benchmark vs Bradley–Terry game sets; 46/46 note) and **`check_numbers.py`** (2013 check rewritten). `check_numbers.py`: 46/46 PASS on both editions (cloud copy; the Mac lacks scipy). No data or figure changed; `data/CHECKSUMS.txt` unchanged.
+**Archive session: rebuild the Zenodo zip (`zenodo_upload.py --replace 23326955`) before Riccardo's `--publish`.**

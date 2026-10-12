@@ -63,7 +63,10 @@ check('T1 Worlds games won', f'{int(W.win.sum())}/{len(W)}', f'{int(W.win.sum())
 check('T1 Worlds games expected', round(W.p.sum()), f'about {round(W.p.sum())} expected', f'circa {round(W.p.sum())} attese')
 check('T1 extra Worlds wins', round(W.win.sum() - W.p.sum()), f'{round(W.win.sum() - W.p.sum())} more wins', f'{round(W.win.sum() - W.p.sum())} vittorie in più')
 X = pd.read_csv(D / 't1_worlds_2013.csv'); x13 = X.win.sum() - X.p.sum(); tot = W.win.sum() - W.p.sum() + x13
-check('T1 2013 Worlds (outside the window): extra wins, total with it', f'{x13:.1f} {tot:.1f}', f'about {round(x13)} more wins than expected that year too, {round(tot)} in all', f'circa {round(x13)} vittorie in più del previsto anche quell\'anno, {round(tot)} in tutto')
+x13w = int(X.win.sum()); x13p = X.p.sum(); base = W.win.sum() - W.p.sum()
+check('T1 2013 Worlds (outside the window): wins vs expected, total before and with it', f'{x13w} {x13p:.1f} {base:.1f} {tot:.1f}',
+      f'with {x13w} wins against {x13p:.1f} expected, and the total would go from {round(base)} to almost {round(tot)}' if 0 < round(tot) - tot < 0.5 else 'TOTAL NOT JUST BELOW AN INTEGER',
+      f"con {x13w} vittorie contro {x13p:.1f} attese, e il totale passerebbe da {round(base)} a quasi {round(tot)}".replace(f'{x13p:.1f}', f'{x13p:.1f}'.replace('.', ',')))
 check('T1 MSI games won', f'{int(M.win.sum())}/{len(M)}', f'{int(M.win.sum())} of {len(M)} games', f'{int(M.win.sum())} partite su {len(M)}')
 check('T1 MSI games expected', round(M.p.sum()), f'about {round(M.p.sum())} expected', f'circa {round(M.p.sum())} attese')
 # the Worlds bonus: maximum-likelihood Elo points added to T1 in its Worlds games
